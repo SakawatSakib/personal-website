@@ -1,0 +1,140 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.name-highlight{
+    font-size:40px;
+    color: tomato;
+
+}
+p{
+    color:dimgray;
+}
+.link-button{
+    text-decoration:none;
+    background-image: linear-gradient(45deg,lightSalmon, tomato );
+    padding:10px 20px;
+    border-radius:5px;
+    font-weight:700;
+    color:white;
+
+    
+}
+.half-width{
+    width:40%;
+    float:left;
+    margin-left: 5%;
+    padding-left: 2%;
+
+}
+.latest-work{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.latest-half-width{
+    width:25%;
+    float:left;
+    margin-left: 5%;
+    padding-left: 2%;
+
+}
+.latest-half-width img{
+   width:100%
+}
+.half-width img{
+    width:100%;
+}
+.header{
+    background-image: url("images/header-bg.png");
+    background-repeat:no-repeat;
+    background-size: 1500px 640px;
+   
+}
+.biography{
+    background-image: url("images/biography-bg.png");
+    background-repeat:no-repeat;
+    background-size: 1500px 640px;
+    
+    
+}
+section{
+    height:570px;
+    padding-bottom: 150px;
+}
+.center{
+    text-align: center;
+    font-weight: 700;
+    font-size:30px;
+}
+#cen{
+    font-size:30px;
+
+}
+#ceo-name{
+    text-align:center;
+}
+#ceo-position{
+    text-align:center;
+}
+
+.footer{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+
+    text-align:center;
+}
+.footer p{
+    text-align:center;
+}
+.msg-box{
+    padding-top:10px;
+    padding-bottom: 10px;
+    width:700px;
+    height: 150px;
+    background-color:rgb(238, 70, 98);
+    margin:auto;
+    border-radius: 5px;
+    color:white;
+    
+    
+}
+.shadow-box{
+    box-shadow:5px 5px 20px gainsboro;
+}
+#color{
+    color:white;
+}
+footer p{
+    text-align:center;
+    font-size:14px;
+
+}
+h4{
+    color:gray;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height:80%;
+    background-color: white;
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon , tomato );
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue , cyan) ;
+    border-image-slice: 1;
+}
+.single-experience:hover {
+    background-color: #55efc4;
+  }
